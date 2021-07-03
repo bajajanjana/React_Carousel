@@ -16,6 +16,7 @@
 //   );
 // }
 // export default App;
+import React, { Component }  from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
 import "swiper/components/effect-coverflow/effect-coverflow.min.css";
@@ -35,9 +36,9 @@ export default function App() {
     <div className="container">
       <div className="title_wrapper">
         <div className="title_">
-          <h2 className="md-5"><span>Featured Courses</span></h2>
+          <h2 className="md-5 text-center"><span>Featured Courses</span></h2>
         </div>
-    </div>
+      </div>
       <Swiper
         navigation={true}
         effect={"coverflow"}
