@@ -36,7 +36,7 @@ export default function App() {
     <div className="container">
       <div className="title_wrapper">
         <div className="title_">
-          <h2 className="md-5 text-center"><span>Featured Courses</span></h2>
+          <h2 className="md-2 text-center"><span>Featured Courses</span></h2>
         </div>
       </div>
       <Swiper
@@ -85,7 +85,7 @@ export default function App() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="image/classicalMusic.jpg" />
+          <img src="image/classicalmusic.jpg" />
           <div className="details">
           <p className="course-name text-center mt-1">Classical Music
           <strong><h5 className="text-center">Full Course Price:</h5></strong>
